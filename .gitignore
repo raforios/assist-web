@@ -44,3 +44,6 @@ package-lock.json
 
 # config text file
 config.txt
+*.pem
+*.crt
+*.key
