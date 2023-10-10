@@ -1,11 +1,7 @@
-# Use the official Nginx image as a base image
-FROM nginx
-
-# Remove the default Nginx configuration
-RUN rm -rf /etc/nginx/conf.d/*
-
+# Use the official Nginx image as a base imageFFROM nginx
+FROM nginx 
 # Copy the custom Nginx configuration file
-COPY /nginx.conf /etc/nginx/conf.d/
+COPY nginx.conf /etc/nginx/conf.d/
 
 # Remove the default Nginx welcome page
 RUN rm -rf /usr/share/nginx/html/*
