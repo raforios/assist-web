@@ -14,7 +14,7 @@ nginx.key
 nginx
 nginx-file.pem
 assistrip.com.chained.crt
-ngnix-bundle.crt
+nginx-bundle.crt
 
 # Runtime data
 pids
@@ -48,6 +48,3 @@ package-lock.json
 
 # config text file
 config.txt
-*.pem
-*.crt
-*.key
