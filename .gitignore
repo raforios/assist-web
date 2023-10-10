@@ -14,6 +14,7 @@ nginx.key
 nginx
 nginx-file.pem
 assistrip.com.chained.crt
+ngnix-bundle.crt
 
 # Runtime data
 pids
